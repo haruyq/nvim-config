@@ -2,6 +2,10 @@ return {
   "ishiooon/codex.nvim",
   dependencies = { "folke/snacks.nvim" },
   opts = {
+    status_indicator = {
+      enabled = false,
+    },
+
     keymaps = {
       enabled = true,
       mappings = {
