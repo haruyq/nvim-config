@@ -1,9 +1,9 @@
 return {
-  "AaravB23/spotui-nvim",
+  "haruyq/spotUI-nvim",
   lazy = false,
   config = function()
     require("spotui").setup({
-      position = "bottom-right",
+      position = "right-top",
       poll_interval = 2000,
       window = {
         width = 50,
