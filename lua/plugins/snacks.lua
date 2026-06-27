@@ -10,9 +10,6 @@ return {
       picker = {
         enabled = true,
       },
-      terminal = {
-        enabled = true,
-      },
       notifier = {
         enabled = true,
       },
@@ -31,13 +28,6 @@ return {
           Snacks.picker.grep()
         end,
         desc = "Search text",
-      },
-      {
-        "<leader>tt",
-        function()
-          Snacks.terminal()
-        end,
-        desc = "Terminal",
       },
     },
   },
