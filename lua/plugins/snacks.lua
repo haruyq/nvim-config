@@ -39,13 +39,6 @@ return {
         end,
         desc = "Terminal",
       },
-      {
-        "<leader>ac",
-        function()
-          Snacks.terminal("codex")
-        end,
-        desc = "Open Codex",
-      },
     },
   },
 }
